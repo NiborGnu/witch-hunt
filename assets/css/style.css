@@ -1,0 +1,76 @@
+/* Font styles */
+@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Fenix&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'fenix', sans-serif,;
+}
+
+h1, h2, h3 {
+    letter-spacing: 3px;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/* Header */
+header {
+    background-image: url("../images/Nav_bar.png");
+    font-family: 'felipa', 'fenix', sans-serif;
+    color: #fff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 251;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu {
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+.active {
+    border-bottom: 0.5px solid #fff;
+}
+
+nav {
+    position: absolute;
+    background-image: url("../images/side_bar.png");
+    display: none;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    box-shadow: 0 5px 5px #550000;
+    padding: 0 1rem;
+}
+
+/* menu */
+.toggle-menu:checked~nav {
+    display: block;
+    
+}
+
+.toggle-menu {
+    display: none;
+}
