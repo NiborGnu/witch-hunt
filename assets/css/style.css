@@ -84,7 +84,15 @@ main {
     flex-direction: column;
     background-image: url("../images/Hero_img.png");
     background-position: center;
-    background-attachment: relative;
-    background-size: 1232px;
+    background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+/*
+@media screen and (min-width: 768px) {
+    main {
+        background-size: 1200px;
+        
+    }
+
 }
