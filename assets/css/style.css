@@ -22,16 +22,14 @@ h1, h2, h3 {
     letter-spacing: 4px;
 }
 
-main {
-    flex: 1 0 auto;
-}
-
 /* Header */
 header {
     background-image: url("../images/Nav_bar.png");
+    background-position: top center;
+    background-attachment: relative;
+    background-repeat: no-repeat;
     font-family: 'felipa', 'fenix', sans-serif;
     color: #fff;
-    max-width: 1230px;
     padding: 0 1rem;
     box-shadow: 0 3px 3px #550000;
     position: fixed;
@@ -77,4 +75,25 @@ nav {
 
 .toggle-menu {
     display: none;
+}
+
+
+/* Main */
+main {
+    color: #fff;
+    margin-top: 100px;
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-image: url("../images/Hero_img.png");
+    background-position: top calc(100px - 20vw) center;
+    background-attachment: relative;
+    background-size: 1232px;
+    background-repeat: no-repeat;
+}
+
+.hero {
+    /*top: 10%;
+    left: 20%;
+    position: absolute;*/
 }
