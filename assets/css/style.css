@@ -24,10 +24,7 @@ h1, h2, h3 {
 
 /* Header */
 header {
-    background-image: url("../images/Nav_bar.png");
-    background-position: top center;
-    background-attachment: relative;
-    background-repeat: no-repeat;
+    background-color: #000;
     font-family: 'fenix', sans-serif;
     color: #fff;
     padding: 0 1rem;
