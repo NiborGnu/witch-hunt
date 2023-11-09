@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: 'fenix', sans-serif,;
+    background-color: #550000;
 }
 
 h1, h2, h3 {
@@ -30,7 +31,9 @@ header {
     background-image: url("../images/Nav_bar.png");
     font-family: 'felipa', 'fenix', sans-serif;
     color: #fff;
+    max-width: 1230px;
     padding: 0 1rem;
+    box-shadow: 0 3px 3px #550000;
     position: fixed;
     z-index: 251;
     width: 100%;
@@ -59,10 +62,11 @@ nav {
     background-image: url("../images/side_bar.png");
     display: none;
     top: 100%;
-    width: 100%;
-    left: 0;
+    width: 100px;
+    height: 80px;
+    right: 0;
     box-shadow: 0 5px 5px #550000;
-    padding: 0 1rem;
+    padding: 9px 1rem;
 }
 
 /* menu */
