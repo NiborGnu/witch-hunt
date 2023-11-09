@@ -1,5 +1,5 @@
 /* Font styles */
-@import url('https://fonts.googleapis.com/css2?family=Felipa&family=Fenix&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fenix&display=swap');
 
 
 * {
@@ -28,7 +28,7 @@ header {
     background-position: top center;
     background-attachment: relative;
     background-repeat: no-repeat;
-    font-family: 'felipa', 'fenix', sans-serif;
+    font-family: 'fenix', sans-serif;
     color: #fff;
     padding: 0 1rem;
     box-shadow: 0 3px 3px #550000;
@@ -86,7 +86,7 @@ main {
     display: flex;
     flex-direction: column;
     background-image: url("../images/Hero_img.png");
-    background-position: top calc(100px - 20vw) center;
+    background-position: center;
     background-attachment: relative;
     background-size: 1232px;
     background-repeat: no-repeat;
