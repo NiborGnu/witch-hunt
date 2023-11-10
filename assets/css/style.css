@@ -124,6 +124,14 @@ main {
     margin: 15px 5px;
 }
 
+/* Video */
+.video {
+    display: block;
+    margin: 0 auto;
+    width: 270px;
+    height: 152px;
+}
+
 /* Witches section */
 .trials {
     flex-basis: 200px;
@@ -157,14 +165,6 @@ main {
     margin: 15px 5px;
     border: 2px solid #550000;
 }
- /* Video section */
-.video {
-    display: block;
-    margin: 0 auto;
-    width: 270px;
-    height: 152px;
-}
-
 
 
 
