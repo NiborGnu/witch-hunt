@@ -94,6 +94,7 @@ main {
     background: url("../images/Hero_img.png") no-repeat fixed center/cover;
     height: 1500px;
     position: relative;
+    padding-top: 40px;
 }
 
 .introduction {
@@ -168,48 +169,33 @@ main {
     border: 2px solid #550000;
 }
 
-/* Completion */
-.completion {
-    display: flex;
-    flex-wrap: wrap;
-}
-.completion-text {
-    font-size: 130%;
-    flex-basis: 200px;
-    flex-grow: 1;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    margin: 200px 15px 15px 15px;
-    border: 2px solid #550000;
-    max-width: 400px;
-}
-
-.return-to {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.return {
-    flex-basis: 200px;
-    flex-grow: 1;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    margin: 15px 5px;
-    border: 2px solid #550000;
-    max-width: 400px;
-}
-
 /* Form */
-.signup {
+.form {
+    padding: 50px 5px 50px 5px;
+}
+
+.contact {
+    margin: 0 auto;
     color: #fff;
     background: rgba(0, 0, 0, 0.7);
     border: 4px solid #550000;
     border-radius: 5px;
     padding: 15px;
+    max-width: 350px;
+    height: 100%;
 }
 
+.contact-title {
+    margin: 0 auto;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    border: 4px solid #550000;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 350px;
+    height: 100%;
+    text-align: center;
+}
 
 .form-text {
     background-color: rgb(222, 222, 222);
@@ -241,6 +227,51 @@ main {
     color: #fff;
     background-color: #550000;
     font-size: 100%;
+}
+
+/* Completion */
+.completion {
+    margin: 0 auto;
+    color: #f00;
+    background: rgba(0, 0, 0, 0.7);
+    border: 4px solid #550000;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 350px;
+    text-align: center;
+}
+.completion-text {
+    font-size: 130%;
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 200px 15px 15px 15px;
+    border: 2px solid #550000;
+    max-width: 400px;
+}
+
+.return-to {
+
+    /*display: flex;
+    flex-wrap: wrap;*/
+}
+
+.return-to a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.return {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 15px 5px;
+    border: 2px solid #550000;
+    max-width: 400px;
 }
 
 /*
