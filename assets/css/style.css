@@ -129,7 +129,8 @@ main {
 
 .hole-page {
     margin: 0 auto;
-    
+    max-width: 1000px;
+    padding: 0 15px 0 15px;
 }
 
 
