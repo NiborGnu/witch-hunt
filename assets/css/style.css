@@ -168,7 +168,38 @@ main {
     border: 2px solid #550000;
 }
 
+/* Completion */
+.completion {
+    display: flex;
+    flex-wrap: wrap;
+}
+.completion-text {
+    font-size: 130%;
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 200px 15px 15px 15px;
+    border: 2px solid #550000;
+    max-width: 400px;
+}
 
+.return-to {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.return {
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    margin: 15px 5px;
+    border: 2px solid #550000;
+    max-width: 400px;
+}
 
 /*
 @media screen and (min-width: 768px) {
