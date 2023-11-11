@@ -82,8 +82,6 @@ nav {
     display: none;
 }
 
-
-/* Main */
 main {
     color: #fff;
     margin-top: 60px;
@@ -91,12 +89,13 @@ main {
 }
 
 .background {
-    background: url("../images/Hero_img.png") no-repeat fixed center/cover;
-    height: 1500px;
+    background: url("../images/Hero_img.webp") no-repeat fixed center/cover;
+    height: 100%;
     position: relative;
-    padding-top: 40px;
+    padding: 40px 5px;
 }
 
+/* Home page */
 .introduction {
     display: block;
     text-align: center;
@@ -176,7 +175,10 @@ main {
     border: 2px solid #550000;
 }
 
-/* Form */
+/* Witches page */
+
+
+/* Contact page */
 .form {
     padding: 50px 5px 50px 5px;
 }
@@ -236,7 +238,7 @@ main {
     font-size: 100%;
 }
 
-/* Completion */
+/* Completion page */
 .completion {
     margin: 0 auto;
     color: #f00;
