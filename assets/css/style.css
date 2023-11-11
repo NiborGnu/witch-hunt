@@ -127,6 +127,12 @@ main {
     margin: 15px 5px;
 }
 
+.hole-page {
+    margin: 0 auto;
+    
+}
+
+
 /* Video */
 .video {
     display: block;
@@ -251,13 +257,6 @@ main {
     border: 2px solid #550000;
     max-width: 400px;
 }
-
-.return-to {
-
-    /*display: flex;
-    flex-wrap: wrap;*/
-}
-
 .return-to a {
     text-decoration: none;
     color: inherit;
