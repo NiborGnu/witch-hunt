@@ -33,7 +33,7 @@ header {
     z-index: 251;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     height: 60px;
 }
@@ -82,22 +82,22 @@ nav {
     display: none;
 }
 
+/* main */
 main {
     color: #fff;
-    margin-top: 60px;
+    padding-top: 80px;
     flex: 1 0 auto;
-}
-
-.background {
-    background: url("../images/Hero_img.webp") no-repeat fixed center/cover;
+    background-image: url("../images/Hero_img.webp");
     height: 100%;
-    position: relative;
-    padding: 40px 5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Home page */
-.introduction {
-    display: block;
+.hole-page {
+    margin: 0 auto;
+    max-width: 1000px;
     text-align: center;
 }
 
@@ -125,13 +125,6 @@ main {
     background-color: rgb(0, 0, 0, 0.7);
     margin: 15px 5px;
 }
-
-.hole-page {
-    margin: 0 auto;
-    max-width: 1000px;
-    padding: 0 15px 0 15px;
-}
-
 
 /* Video */
 .video {
@@ -176,7 +169,26 @@ main {
 }
 
 /* Witches page */
+.witch-trails {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
 
+.trail {
+    padding: 20px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin: 15px 5px;
+    border: 2px solid #550000;
+}
+
+.record-text {
+    display: none;
+    
+}
 
 /* Contact page */
 .form {
@@ -195,8 +207,8 @@ main {
 }
 
 .contact-title {
-    margin: 0 auto;
-    color: #fff;
+    margin: 30px auto;
+    color: #f00;
     background: rgba(0, 0, 0, 0.7);
     border: 4px solid #550000;
     border-radius: 5px;
