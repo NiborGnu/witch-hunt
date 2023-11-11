@@ -164,9 +164,9 @@ main {
     text-decoration: none;
 }
 
-.stor-marit,
-.elisabetta,
-.margareta {
+.stor-marit-index,
+.elisabetta-index,
+.margareta-index {
     padding: 20px;
     flex-basis: 200px;
     flex-grow: 1;

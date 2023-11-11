@@ -35,11 +35,15 @@
             <div class="form">
                 <h2 class="contact-title">Please send us a message if you find something wrong or if you have more information about witches from the Great Noise</h2>
                 <form action="completion.html" method="post" class="contact">
-                <input type="text" class="form-text" name="first-name" placeholder="First Name" required>
-                <input type="text" class="form-text" name="last-name" placeholder="Last Name" required>
-                <input type="email" class="form-text" name="email" placeholder="Email" required>
-                <textarea name="textarea" class="textarea" cols="30" rows="10" required placeholder="Write youre message here!"></textarea>
-                <a href="completion.html"><button type="submit" class="submit">Submit Message</button></form></a>
+                    <label for="first-name">First Name:</label>
+                    <input type="text" class="form-text" name="first-name" placeholder="First Name" required>
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" class="form-text" name="last-name" placeholder="Last Name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-text" name="email" placeholder="Email" required>
+                    <label for="textarea">Youre Message:</label>
+                    <textarea name="textarea" class="textarea" cols="30" rows="10" required placeholder="Write youre message here!"></textarea>
+                    <button type="submit" class="submit">Submit Message</button></form>
                 </div>
         </section>
     </main>
