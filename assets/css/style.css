@@ -215,6 +215,13 @@ main {
     display: block;
 }
 
+.record-marit a,
+.record-elisabetta a,
+.record-margreta a {
+    color: #f00;
+    text-decoration: none;
+}
+
 /* Contact page */
 .form {
     padding: 10px 5px 50px 5px;
