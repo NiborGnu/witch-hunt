@@ -99,6 +99,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* Home page */
@@ -192,14 +193,31 @@ main {
     border: 2px solid #550000;
 }
 
-.record-text {
+.trail h1 {
+    padding: 10px 0;
+    color: #f00;
+}
+
+.trail p {
+    padding: 20px 0;
+}
+
+.record-marit,
+.record-elisabetta,
+.record-margreta {
     display: none;
-    
+    padding: 20px 0;
+}
+
+.record-marit:checked~nav,
+.record-elisabetta:checked~nav,
+.record-margreta:checked~nav {
+    display: block;
 }
 
 /* Contact page */
 .form {
-    padding: 50px 5px 50px 5px;
+    padding: 10px 5px 50px 5px;
 }
 
 .contact {
