@@ -69,7 +69,7 @@ header a {
 
 .top-bar nav {
     position: absolute;
-    background-image: url("../images/side_bar.png");
+    background-image: url("../images/side_bar.webp");
     display: none;
     top: 100%;
     width: 100px;
