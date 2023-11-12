@@ -22,6 +22,12 @@ h1, h2, h3 {
     letter-spacing: 4px;
 }
 
+.hole-page {
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
 /* Header */
 header {
     background-color: #000;
@@ -72,9 +78,9 @@ header a {
     background-image: url("../images/side_bar.webp");
     display: none;
     top: 100%;
-    width: 100px;
-    height: 100px;
-    right: 2%;
+    width: 110px;
+    height: 110px;
+    right: 1%;
     box-shadow: 0 5px 5px #550000;
     padding: 9px 1rem;
 }
@@ -103,12 +109,6 @@ main {
 }
 
 /* Home page */
-.hole-page {
-    margin: 0 auto;
-    max-width: 1000px;
-    text-align: center;
-}
-
 .main-title {
     position: relative;
     background-color: rgb(0, 0, 0, 0.7);
@@ -177,12 +177,6 @@ main {
 }
 
 /* Witches page */
-.witch-trails {
-    margin: 0 auto;
-    max-width: 1000px;
-    text-align: center;
-}
-
 .trail {
     padding: 20px;
     flex-basis: 200px;
@@ -236,6 +230,7 @@ main {
     padding: 15px;
     max-width: 350px;
     height: 100%;
+    text-align: start;
 }
 
 .contact-title {
@@ -247,7 +242,6 @@ main {
     padding: 15px;
     max-width: 350px;
     height: 100%;
-    text-align: center;
 }
 
 .form-text {
@@ -282,49 +276,59 @@ main {
     font-size: 100%;
 }
 
-/* Completion page */
-.completion {
-    margin: 0 auto;
-    color: #f00;
-    background: rgba(0, 0, 0, 0.7);
-    border: 4px solid #550000;
-    border-radius: 5px;
-    padding: 15px;
-    max-width: 350px;
-    text-align: center;
-}
-.completion-text {
-    font-size: 130%;
-    flex-basis: 200px;
-    flex-grow: 1;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    margin: 200px 15px 15px 15px;
-    border: 2px solid #550000;
-    max-width: 400px;
-}
-.return-to a {
-    text-decoration: none;
-    color: inherit;
+@media screen and (min-width: 424px) {
+    .video {
+    width: 400px;
+    height: 225px;
+    }
 }
 
-.return {
-    flex-basis: 200px;
-    flex-grow: 1;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    margin: 15px 5px;
-    border: 2px solid #550000;
-    max-width: 400px;
-}
-
-/*
 @media screen and (min-width: 768px) {
-    main {
-        background-size: 1200px;
+    .top-bar nav {
+        display: flex;
+        box-shadow: none;
+        background: none;
         
     }
 
+    .video {
+    width: 700px;
+    height: 394px;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .hole-page {
+        font-size: 120%;
+    }
+
+    .video {
+    width: 1000px;
+    height: 563px;
+    }
+}
+
+@media screen and (min-width: 2020px) {
+    header {
+        height: 100px;
+    }
+
+    .logo {
+        font-size: 300%;
+    }
+
+    .hole-page {
+        padding-top: 50px;
+        max-width: 1500px;
+        font-size: 200%;
+    }
+    
+    .contact {
+        width: 1500px;
+    }
+
+    .video {
+    width: 1500px;
+    height: 844px;
+    }
 }
