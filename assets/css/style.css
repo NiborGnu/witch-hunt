@@ -73,6 +73,7 @@ header a {
     border-bottom: 0.5px solid #fff;
 }
 
+/* menu */
 .top-bar nav {
     position: absolute;
     background-image: url("../images/side_bar.webp");
@@ -85,10 +86,8 @@ header a {
     padding: 9px 1rem;
 }
 
-/* menu */
 .toggle-menu:checked~nav {
     display: block;
-    
 }
 
 .toggle-menu {
@@ -276,7 +275,7 @@ main {
     font-size: 100%;
 }
 
-@media screen and (min-width: 424px) {
+@media screen and (min-width: 500px) {
     .video {
     width: 400px;
     height: 225px;
@@ -285,10 +284,23 @@ main {
 
 @media screen and (min-width: 768px) {
     .top-bar nav {
-        display: flex;
+        display: block;
         box-shadow: none;
         background: none;
-        
+        position: relative;
+        padding-top: 45px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu>li {
+        padding-left: 1rem;
+    }
+
+    .menu-nav {
+        display: none;
     }
 
     .video {
@@ -297,9 +309,13 @@ main {
     }
 }
 
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 992px) {
     .hole-page {
         font-size: 120%;
+    }
+
+    .menu a:hover {
+        border-bottom: 1px solid #fff;
     }
 
     .video {
@@ -313,22 +329,17 @@ main {
         height: 100px;
     }
 
-    .logo {
-        font-size: 300%;
+    .top-bar {
+        font-size: 150%;
     }
 
     .hole-page {
         padding-top: 50px;
         max-width: 1500px;
-        font-size: 200%;
+        font-size: 150%;
     }
     
     .contact {
         width: 1500px;
-    }
-
-    .video {
-    width: 1500px;
-    height: 844px;
     }
 }
