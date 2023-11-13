@@ -7,6 +7,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: 'fenix', sans-serif,;
 }
 
 /* General styles */
@@ -14,12 +15,11 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    font-family: 'fenix', sans-serif,;
     background-color: #550000;
 }
 
 h1, h2, h3, h4 {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #f00;
     padding-bottom: 10px;
 }
@@ -33,7 +33,6 @@ h1, h2, h3, h4 {
 /* Header */
 header {
     background-color: #000;
-    font-family: 'fenix', sans-serif;
     color: #f00;
     padding: 0 1rem;
     box-shadow: 0 3px 3px #550000;
@@ -268,6 +267,7 @@ main {
 }
 
 @media screen and (min-width: 500px) {
+    /* Home page */
     .video {
     width: 400px;
     height: 225px;
@@ -295,6 +295,24 @@ main {
         display: none;
     }
 
+    /* Home page */
+    .media-addition {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        max-height: fit-content;
+    }
+
+    .witch-image {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .witch-landscape {
+        height: 100%;
+        width: 100%;
+    }
+
     .video {
     width: 700px;
     height: 394px;
@@ -311,6 +329,24 @@ main {
     }
 
     /* Home page */
+    .media-addition {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .witch-image {
+        background: url(../images/Burning-light.jpg) no-repeat center center/cover;
+        height: 168px;
+        width: 336px;
+    }
+
+    .witch-landscape {
+        background: url(../images/view-daunting-witch-character.jpg) no-repeat center center/cover;
+        height: 242px;
+        width: 363px;
+    }
+
     .video {
     width: 1000px;
     height: 563px;
@@ -324,6 +360,10 @@ main {
 
     .form-text {
         height: 35px;
+    }
+
+    .textarea {
+        font-size: large;
     }
 }
 
@@ -350,5 +390,14 @@ main {
     
     .form-text {
         height: 50px;
+    }
+
+    .form-text,
+    .textarea {
+        font-size: xx-large;
+    }
+
+    .textarea {
+        height: 300px;
     }
 }
