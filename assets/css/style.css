@@ -87,7 +87,7 @@ header nav {
 main {
     color: #fff;
     flex: 1 0 auto;
-    background-image: url("../images/Hero_img.webp");
+    background-image: url("../images/hero_img.webp");
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -107,7 +107,7 @@ main {
 }
 
 .witch-image {
-    background: url(../images/Burning-light.jpg) no-repeat center center/cover;
+    background: url(../images/burning-light.jpg) no-repeat center center/cover;
     width: 0;
     height: 0;
 }
