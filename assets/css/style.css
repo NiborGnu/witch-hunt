@@ -109,7 +109,7 @@ main {
 }
 
 /* Home page */
-.main-content {
+.index-content {
     padding: 20px;
     flex-basis: 200px;
     flex-grow: 1;
@@ -159,9 +159,7 @@ main {
     text-decoration: none;
 }
 
-.trials>.killed-witches>.stor-marit-index,
-.trials>.killed-witches>.elisabetta-index,
-.trials>.killed-witches>.margreta-index {
+.trials>.killed-witches>.index-link {
     padding: 20px;
     flex-basis: 200px;
     flex-grow: 1;
@@ -207,6 +205,11 @@ main {
 .record-marit a,
 .record-elisabetta a,
 .record-margreta a {
+    color: #f00;
+    text-decoration: none;
+}
+
+.witches-top {
     color: #f00;
     text-decoration: none;
 }
