@@ -35,29 +35,18 @@ header {
     color: #f00;
     padding: 0 1rem;
     box-shadow: 0 3px 3px #550000;
-    position: fixed;
     z-index: 251;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-}
-
-.top-bar {
+    justify-content: space-evenly;
+    align-items: baseline;
     margin: 0 auto;
     display: flex;
-    max-width: 600px;
-    align-items: center;
+    width: 100%;
+    padding: 20px 0;
 }
 
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-.logo {
-    padding-right: 40px;
 }
 
 .menu {
@@ -70,11 +59,11 @@ header a {
 }
 
 .active {
-    border-bottom: 0.5px solid #fff;
+    border-bottom: 0.5px solid #f00;
 }
 
 /* menu */
-.top-bar nav {
+header nav {
     position: absolute;
     background-image: url("../images/side_bar.webp");
     display: none;
@@ -97,7 +86,7 @@ header a {
 /* main */
 main {
     color: #fff;
-    padding-top: 80px;
+    padding-top: 20px;
     flex: 1 0 auto;
     background-image: url("../images/Hero_img.webp");
     height: 100%;
@@ -293,12 +282,13 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-    .top-bar>nav {
+    header nav {
         display: block;
         box-shadow: none;
         background: none;
         position: relative;
-        padding-top: 45px;
+        padding-right: 230px;
+        height: 0;
     }
 
     .menu {
@@ -374,40 +364,5 @@ main {
 
     .textarea {
         font-size: large;
-    }
-}
-
-@media screen and (min-width: 2020px) {
-    header {
-        height: 100px;
-    }
-
-    .top-bar {
-        font-size: 150%;
-    }
-
-    .hole-page {
-        padding-top: 50px;
-        max-width: 1500px;
-        font-size: 150%;
-    }
-
-    /* Contact page */
-    .contact,
-    .contact-title {
-        max-width: 800px;
-    }
-    
-    .form-text {
-        height: 50px;
-    }
-
-    .form-text,
-    .textarea {
-        font-size: xx-large;
-    }
-
-    .textarea {
-        height: 300px;
     }
 }
