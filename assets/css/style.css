@@ -109,7 +109,7 @@ main {
 }
 
 /* Home page */
-.introduction .main-content {
+.main-content {
     padding: 20px;
     flex-basis: 200px;
     flex-grow: 1;
@@ -119,10 +119,15 @@ main {
     border: 2px solid #550000;
 }
 
-.video {
-    position: relative;
-    background-color: rgb(0, 0, 0, 0.7);
-    margin: 15px 5px;
+.witch-image {
+    background: url(../images/Burning-light.jpg) no-repeat center center/cover;
+    width: 0;
+    height: 0;
+}
+.witch-landscape {
+    background: url(../images/view-daunting-witch-character.jpg) no-repeat center center/cover;
+    width: 0;
+    height: 0;
 }
 
 /* Video */
@@ -143,20 +148,20 @@ main {
     border: 2px solid #550000;
 }
 
-.killed-witches {
+.trials>.killed-witches {
     display: flex;
     flex-wrap: wrap;
 }
 
-.killed-witches a,
+.trials>.killed-witches a,
 .trials a {
     color: inherit;
     text-decoration: none;
 }
 
-.stor-marit-index,
-.elisabetta-index,
-.margreta-index {
+.trials>.killed-witches>.stor-marit-index,
+.trials>.killed-witches>.elisabetta-index,
+.trials>.killed-witches>.margreta-index {
     padding: 20px;
     flex-basis: 200px;
     flex-grow: 1;
@@ -275,7 +280,7 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-    .top-bar nav {
+    .top-bar>nav {
         display: block;
         box-shadow: none;
         background: none;
@@ -300,17 +305,17 @@ main {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        max-height: fit-content;
+        width: 100%;
     }
 
-    .witch-image {
-        height: 100%;
-        width: 100%;
+    .media-addition>.witch-image {
+        height: 168px;
+        width: 336px;
     }
     
-    .witch-landscape {
-        height: 100%;
-        width: 100%;
+    .media-addition>.witch-landscape {
+        height: 242px;
+        width: 363px;
     }
 
     .video {
@@ -335,14 +340,12 @@ main {
         align-items: center;
     }
 
-    .witch-image {
-        background: url(../images/Burning-light.jpg) no-repeat center center/cover;
+    .media-addition>.witch-image {
         height: 168px;
         width: 336px;
     }
 
-    .witch-landscape {
-        background: url(../images/view-daunting-witch-character.jpg) no-repeat center center/cover;
+    .media-addition>.witch-landscape {
         height: 242px;
         width: 363px;
     }
