@@ -32,7 +32,7 @@ main {
     color: #fff;
     flex: 1 0 auto;
     margin: 0 auto;
-    max-width: 1180px;
+    max-width: 1100px;
 }
 
 /* Header */
@@ -180,9 +180,9 @@ header nav {
     padding: 20px 0;
 }
 
-.record-marit:checked~nav,
-.record-elisabetta:checked~nav,
-.record-margreta:checked~nav {
+.record-marit:checked~div,
+.record-elisabetta:checked~div,
+.record-margreta:checked~div {
     display: block;
 }
 
@@ -197,7 +197,7 @@ header nav {
     border-bottom: 1px solid #f00;
 }
 
-.tr h2 {
+.border-box {
     background-color: #000;
     padding: 5px 25px;
     border: 2px solid #550000;
@@ -205,6 +205,7 @@ header nav {
     width: 230px;
 }
 
+/* Response page */
 .witches-top {
     color: #f00;
     text-decoration: none;
