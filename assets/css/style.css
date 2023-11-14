@@ -15,7 +15,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #550000;
 }
 
 h1, h2, h3, h4 {
@@ -163,18 +162,19 @@ main {
     padding: 20px;
     flex-basis: 200px;
     flex-grow: 1;
-    text-align: center;
     background-color: rgb(0, 0, 0, 0.7);
     margin: 15px 5px;
     border: 2px solid #550000;
 }
 
+.explain {
+    text-align: start;
+    padding-left: 20px;
+}
+
 /* Witches page */
 .trail {
     padding: 20px;
-    flex-basis: 200px;
-    flex-grow: 1;
-    text-align: center;
     background-color: rgb(0, 0, 0, 0.7);
     margin: 15px 5px;
     border: 2px solid #550000;
@@ -207,6 +207,16 @@ main {
 .record-margreta a {
     color: #f00;
     text-decoration: none;
+}
+
+.tr h1 {
+    border-bottom: 1px solid #f00;
+}
+
+.tr h2 {
+    background-color: #000;
+    padding: 5px 25px;
+    border: 2px solid #550000;
 }
 
 .witches-top {
@@ -313,17 +323,17 @@ main {
 
     .media-addition>.witch-image {
         height: 168px;
-        width: 336px;
+        width: 270px;
     }
     
     .media-addition>.witch-landscape {
-        height: 242px;
-        width: 363px;
+        height: 230px;
+        width: 300px;
     }
 
     .video {
-    width: 700px;
-    height: 394px;
+        width: 700px;
+        height: 394px;
     }
 }
 
@@ -337,12 +347,6 @@ main {
     }
 
     /* Home page */
-    .media-addition {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
     .media-addition>.witch-image {
         height: 168px;
         width: 336px;
@@ -354,8 +358,8 @@ main {
     }
 
     .video {
-    width: 1000px;
-    height: 563px;
+        width: 1000px;
+        height: 563px;
     }
 
     /* Contact page */
@@ -387,7 +391,7 @@ main {
         max-width: 1500px;
         font-size: 150%;
     }
-    
+
     /* Contact page */
     .contact,
     .contact-title {
