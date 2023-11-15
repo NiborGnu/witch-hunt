@@ -338,7 +338,7 @@ header nav {
 }
 
 @media screen and (min-width: 992px) {
-    .hole-page {
+    main {
         font-size: 120%;
     }
 
