@@ -277,7 +277,7 @@ footer {
     height: 50px;
     box-shadow: 0 -5px 5px #550000;
     display: flex;
-    padding: 15px 55px;
+    padding: 15px 0;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
@@ -286,12 +286,17 @@ footer {
 }
 
 .icons {
+    padding-right: 25px;
     letter-spacing: 5px;
 }
 
 .icons a {
     text-decoration: none;
     color: #f00;
+}
+
+.logo {
+    padding-left: 5px;
 }
 
 .logo a {
@@ -315,6 +320,15 @@ footer {
     .video {
     width: 400px;
     height: 225px;
+    }
+    
+    /* Footer */
+    .logo {
+        padding-left: 55px;
+    }
+
+    .icons {
+        padding-right: 55px;
     }
 }
 
