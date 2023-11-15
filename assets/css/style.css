@@ -271,8 +271,32 @@ header nav {
     font-size: 100%;
 }
 
+/* Footer */
 footer {
-    background-color: #550000;
+    background-color: #000000;
+    height: 50px;
+    box-shadow: 0 -5px 5px #550000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.icons {
+    padding-right: 50px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #f00;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #f00;
 }
 
 /* Response page */
