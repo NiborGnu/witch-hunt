@@ -277,21 +277,21 @@ footer {
     height: 50px;
     box-shadow: 0 -5px 5px #550000;
     display: flex;
+    padding: 15px 55px;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .icons {
-    padding-right: 50px;
+    letter-spacing: 5px;
 }
 
 .icons a {
     text-decoration: none;
     color: #f00;
-}
-
-.logo {
-    padding-left: 50px;
 }
 
 .logo a {
