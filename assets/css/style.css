@@ -157,7 +157,7 @@ header nav {
 }
 
 /* Witches page */
-#top h1 {
+.top h1 {
     flex-basis: 200px;
     flex-grow: 1;
     padding: 20px;
