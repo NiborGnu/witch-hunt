@@ -157,6 +157,15 @@ header nav {
 }
 
 /* Witches page */
+#top h1 {
+    flex-basis: 200px;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+    margin: 15px 5px;
+    border: 2px solid #550000;
+}
+
 .trail {
     padding: 20px;
     background-color: rgb(0, 0, 0, 0.7);
@@ -193,7 +202,8 @@ header nav {
     text-decoration: none;
 }
 
-.tr h1 {
+.trail>h2 {
+    font-size: xx-large;
     border-bottom: 1px solid #f00;
 }
 
