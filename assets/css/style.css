@@ -103,12 +103,12 @@ header nav {
 }
 
 .witch-image {
-    background: url(../images/burning-light.jpg) no-repeat center center/cover;
+    background: url(../images/burning-light.webp) no-repeat center center/cover;
     width: 0;
     height: 0;
 }
 .witch-landscape {
-    background: url(../images/view-daunting-witch-character.jpg) no-repeat center center/cover;
+    background: url(../images/view-daunting-witch-character.webp) no-repeat center center/cover;
     width: 0;
     height: 0;
 }
