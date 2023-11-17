@@ -103,12 +103,12 @@ header nav {
 }
 
 .witch-image {
-    background: url(../images/burning-light.webp) no-repeat center center/cover;
+    background: url("../images/burning-light.webp") no-repeat center center/cover;
     width: 0;
     height: 0;
 }
 .witch-landscape {
-    background: url(../images/view-daunting-witch-character.webp) no-repeat center center/cover;
+    background: url("../images/view-daunting-witch-character.webp") no-repeat center center/cover;
     width: 0;
     height: 0;
 }
@@ -167,6 +167,10 @@ header nav {
     border: 2px solid #550000;
 }
 
+.tra {
+    color: #f00;
+}
+
 .trail {
     padding: 20px;
     background-color: rgb(0, 0, 0, 0.8);
@@ -174,9 +178,11 @@ header nav {
     border: 2px solid #550000;
 }
 
-.trail h2 {
+.trail>h2 {
     padding: 10px 0;
     color: #f00;
+    font-size: xx-large;
+    border-bottom: 1px solid #f00;
 }
 
 .trail p {
@@ -203,15 +209,10 @@ header nav {
     text-decoration: none;
 }
 
-.trail>h2 {
-    font-size: xx-large;
-    border-bottom: 1px solid #f00;
-}
-
 .border-box {
     background-color: #000;
-    padding: 5px 25px;
-    border: 2px solid #550000;
+    padding: 5px 0;
+    border: 1px solid #550000;
     margin: 0 auto;
     width: 230px;
 }
