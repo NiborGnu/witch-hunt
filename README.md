@@ -53,8 +53,10 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
     - Represent:
 
-        * 
-        * 
+        * The consept of the page
+        * Invite intrest to read more
+
+        ![Responsive Mockup](documentation/home-screen.png)
 
 
 
@@ -88,10 +90,18 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 + ### Acknowledgments
 
-    * ![Code Institute](https://codeinstitute.net/se/)
+    * [Code Institute](https://codeinstitute.net/se/) - Fore the training and classes in all the basics of html  and css
     
-    * ![Kevin Poweell](https://www.youtube.com/@KevinPowell)
+    * [Kevin Powell](https://www.youtube.com/@KevinPowell) - Fore awesome ccs tutorials
 
-    * ![National Archive Sweden](https://riksarkivet.se/motkallorna/rattegangsprotokollen)
+    * [National Archive Sweden](https://riksarkivet.se/motkallorna/rattegangsprotokollen) - For the Trail records I translated from there
 
-    * ![Pinnso](https://www.youtube.com/watch?v=QnBupvZoTw8)
+    * [Pinnso](https://www.youtube.com/watch?v=QnBupvZoTw8) - Fore the video I link on my home page about the Great Noise
+
+    * [Google Fonts](https://fonts.google.com/specimen/Fenix?query=fenix) - Fore the fonts I'm using from them
+
+    * [Fontawesome](https://fontawesome.com/search?q=more&o=r&m=free) - Fore the nice font I have been using that they have
+
+    * [Freepik](https://www.freepik.com/) - Fore the image they have are awesome
+
+    * [Juliia](https://github.com/IuliiaKonovalova) - Fore the help and guidens
