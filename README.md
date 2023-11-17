@@ -55,3 +55,43 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
         * 
         * 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++ ### Acknowledgments
+
+    * ![Code Institute](https://codeinstitute.net/se/)
+    
+    * ![Kevin Poweell](https://www.youtube.com/@KevinPowell)
+
+    * ![National Archive Sweden](https://riksarkivet.se/motkallorna/rattegangsprotokollen)
+
+    * ![Pinnso](https://www.youtube.com/watch?v=QnBupvZoTw8)
