@@ -48,6 +48,7 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
         * On tablets: Navigation bar looks the same as on desktop
         ![NavBar desktop](documentation/nav-bar-desktop.png)
 
+
 ---
 + ### Home Page:
 
@@ -58,6 +59,17 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
         ![Responsive Mockup](documentation/home-screen.png)
 
+---
+
++ #### Hero Section
+
+    - Hero section consist of 3 text bracets and 2 image(- mobile)
+
+        * Page titel introducing the great noise
+        * Information about how many victims and a image 
+        * Information about the resoning and questions of why and a image
+
+        
 
 
 
@@ -79,16 +91,15 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 
 
+---
+
++ #### Body
+
+    - Body have a fixed background image.
 
 
 
-
-
-
-
-
-
-+ ### Acknowledgments
++ ### 
 
     * [Code Institute](https://codeinstitute.net/se/) - Fore the training and classes in all the basics of html  and css
     
