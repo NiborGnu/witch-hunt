@@ -126,8 +126,8 @@ header nav {
 }
 
 .video iframe {
-    width: 270px;
-    height: 152px;
+    width: 220px;
+    height: 124px;
 }
 
 /* Witches section */
@@ -295,8 +295,7 @@ footer {
     box-shadow: 0 -5px 5px #550000;
     display: flex;
     padding: 15px 0;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     max-width: 1000px;
     min-width: 300px;
@@ -304,20 +303,10 @@ footer {
 }
 
 .icons {
-    padding-right: 25px;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
 }
 
 .icons a {
-    text-decoration: none;
-    color: #f00;
-}
-
-.logo {
-    padding-left: 5px;
-}
-
-.logo a {
     text-decoration: none;
     color: #f00;
 }
@@ -338,15 +327,6 @@ footer {
     .video iframe {
     width: 400px;
     height: 225px;
-    }
-    
-    /* Footer */
-    .logo {
-        padding-left: 55px;
-    }
-
-    .icons {
-        padding-right: 55px;
     }
 }
 
@@ -409,6 +389,11 @@ footer {
     /* Contact page */
     .submit:hover {
         cursor: pointer;
+    }
+
+    /* Footer */
+    .icons a:hover {
+        color: #fff
     }
 }
 
