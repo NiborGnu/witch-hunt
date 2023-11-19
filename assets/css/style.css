@@ -291,10 +291,10 @@ header nav {
 
 /* Footer */
 footer {
-    background-color: #000000;
+    background-color: #000;
     height: 50px;
-    box-shadow: 0 -5px 5px #550000;
-    padding: 15px 0 15px 25px;
+    box-shadow: 0 -5px 5px #500;
+    padding: 15px 0;
     justify-content: center;
     width: 100%;
     max-width: 1000px;
@@ -302,13 +302,30 @@ footer {
     margin: 0 auto;
 }
 
-.icons {
-    letter-spacing: 20px;
+.fa-brands {
+    text-decoration: none;
+    text-align: center;
+    padding: 0 20px;
 }
 
-.icons a {
-    text-decoration: none;
-    color: #f00;
+.fa-facebook {
+    color: rgb(24, 119, 242);
+}
+
+.fa-instagram {
+    color: rgb(246, 1, 140);
+}
+
+.fa-twitter {
+    color: rgb(28, 150, 232);
+}
+
+.fa-youtube {
+    color: rgb(255, 0, 0);
+}
+
+.fa-snapchat {
+    color: rgb(247, 247, 0);
 }
 
 /* Response page */
@@ -377,8 +394,8 @@ footer {
     }
 
     .video iframe {
-        width: 700px;
-        height: 394px;
+        width: 640px;
+        height: 361px;
     }
 
     .trials a>h2:hover {
@@ -397,8 +414,7 @@ footer {
     }
 
     /* Footer */
-    .icons {
-        letter-spacing: 30px;
+    .fa-brands {
     }
 
     .icons a:hover {
@@ -443,6 +459,5 @@ footer {
 
     /* Footer */
     .icons {
-        letter-spacing: 45px;
     }
 }
