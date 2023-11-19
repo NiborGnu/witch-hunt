@@ -117,6 +117,12 @@ header nav {
 .video {
     display: block;
     margin: 0 auto;
+    padding: 20px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 15px 5px;
+    border: 2px solid #550000;
 }
 
 .video iframe {
