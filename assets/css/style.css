@@ -117,6 +117,9 @@ header nav {
 .video {
     display: block;
     margin: 0 auto;
+}
+
+.video iframe {
     width: 270px;
     height: 152px;
 }
@@ -326,7 +329,7 @@ footer {
 
 @media screen and (min-width: 500px) {
     /* Home page */
-    .video {
+    .video iframe {
     width: 400px;
     height: 225px;
     }
@@ -387,7 +390,7 @@ footer {
         width: 300px;
     }
 
-    .video {
+    .video iframe {
         width: 700px;
         height: 394px;
     }
@@ -419,9 +422,9 @@ footer {
         width: 363px;
     }
 
-    .video {
+    .video iframe {
         width: 850px;
-        height: 479px;
+        height: 478px;
     }
 
     /* Contact page */
