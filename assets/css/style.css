@@ -339,6 +339,10 @@ footer {
     max-width: 530px;
 }
 
+.ten-seconds {
+    color: #f00;
+}
+
 @media screen and (min-width: 500px) {
     /* Home page */
     .video iframe {
@@ -414,9 +418,6 @@ footer {
     }
 
     /* Footer */
-    .fa-brands {
-    }
-
     .icons a:hover {
         color: #fff
     }
@@ -425,6 +426,7 @@ footer {
 @media screen and (min-width: 992px) {
     main {
         font-size: 120%;
+        padding: 0 50px;
     }
 
     /* Home page */
@@ -450,14 +452,11 @@ footer {
     }
 
     .form-text {
-        height: 35px;
+        height: 40px;
+        font-size: large;
     }
 
     .textarea {
         font-size: large;
-    }
-
-    /* Footer */
-    .icons {
     }
 }
