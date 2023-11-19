@@ -188,25 +188,25 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 #### Mobile devices
 
-- [Home Page. Mobile Screen]()
-- [Gallery Page. Mobile Screen]()
-- [Contact Page. Mobile Screen]()
-- [Response Page. Mobile Screen]()
+- [Home Page. Mobile Screen](documentation/mobile-home.png)
+- [Witches Page. Mobile Screen](documentation/mobile-witches.png)
+- [Contact Page. Mobile Screen](documentation/mobile-contact.png)
+- [Response Page. Mobile Screen](documentation/mobile-response.png)
 
 
 #### Tablets
 
-- [Home Page. Tablet Screen]()
-- [Gallery Page. Tablet Screen]()
-- [Contact Page. Tablet Screen]()
-- [Response Page. Tablet Screen]()
+- [Home Page. Tablet Screen](documentation)
+- [Witches Page. Tablet Screen](documentation)
+- [Contact Page. Tablet Screen](documentation)
+- [Response Page. Tablet Screen](documentation)
 
 #### Desktop
 
-- [Home Page. Desktop Screen]()
-- [Gallery Page. Desktop Screen]()
-- [Contact Page. Desktop Screen]()
-- [Response Page. Desktop Screen]()
+- [Home Page. Desktop Screen](documentation)
+- [Witches Page. Desktop Screen](documentation)
+- [Contact Page. Desktop Screen](documentation)
+- [Response Page. Desktop Screen](documentation)
 
 
 ---
@@ -252,17 +252,17 @@ The live link can be found [here](https://github.com/NiborGnu/witch-hunt)
 
 + #### Media
 
-    - All the images for the website were taken from [Freepik](https://www.freepik.com/).
-    + [Hero image]();
+    - All the images for the website were taken from [Freepik](https://www.freepik.com/) and [Pixabay](https://pixabay.com/).
 
     + Body Background Image:
-        - []()
+        
+        - [Witch Burning](https://pixabay.com/illustrations/witch-burning-funeral-pyre-phoenix-351208/)
 
     + Home images:
-        - [1st image]()
-        - [2nd image]();
+        - [1st image](https://www.freepik.com/free-ai-image/medium-shot-scary-character-posing_59233389.htm#query=witches%20burning&position=26&from_view=search&track=ais)
+        - [2nd image](https://www.freepik.com/free-ai-image/view-daunting-witch-character_58508538.htm#query=witch%20burning&position=46&from_view=keyword&track=ais);
 
-    - Video Taken from you tube user 
+    - [Video](https://www.youtube.com/watch?v=QnBupvZoTw8) Taken from you tube user Pinnso
 
 + #### Tools
 
@@ -274,12 +274,6 @@ The live link can be found [here](https://github.com/NiborGnu/witch-hunt)
 
 
 
-
----
-
-+ #### Body
-
-    - Body have a fixed background image.
 
 
 
