@@ -179,7 +179,9 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 ### Color Scheme
 
-[Color pallet]() ??
+![Color pallet](documentation/color-pallet.png) 
+
+- 
 
 - 
 
@@ -208,17 +210,17 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 #### Tablets
 
-- [Home Page. Tablet Screen](documentation)
-- [Witches Page. Tablet Screen](documentation)
-- [Contact Page. Tablet Screen](documentation)
-- [Response Page. Tablet Screen](documentation)
+- [Home Page. Tablet Screen](documentation/tablet-home-page.png)
+- [Witches Page. Tablet Screen](documentation/tablet-witches-page.png)
+- [Contact Page. Tablet Screen](documentation/tablet-contact-page.png)
+- [Response Page. Tablet Screen](documentation/tablet-response-page.png)
 
 #### Desktop
 
-- [Home Page. Desktop Screen](documentation)
-- [Witches Page. Desktop Screen](documentation)
-- [Contact Page. Desktop Screen](documentation)
-- [Response Page. Desktop Screen](documentation)
+- [Home Page. Desktop Screen](documentation/desktop-home-page.png)
+- [Witches Page. Desktop Screen](documentation/desktop-witches-page.png)
+- [Contact Page. Desktop Screen](documentation/desktop-contact-page.png)
+- [Response Page. Desktop Screen](documentation/desktop-response-page.png)
 
 
 ---
