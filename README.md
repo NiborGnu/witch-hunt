@@ -52,10 +52,14 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 ---
 + ### Home Page:
 
+    - Background image is put in the html body of the page
+
     - Represent:
 
         * The consept of the page
         * Invite intrest to read more
+
+    - The page is responsive on all common screen sizes.
 
         ![Responsive Mockup](documentation/home-screen.png)
 
@@ -103,22 +107,26 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
     - Footer contains social media links that open in a new tab.
 ​
-    ![Footer](documentation)
+    ![Footer](documentation/footer-desktop.png)
 ​
 ---
 + ### Witches Page
 
-    - Witches page show
+    - Same background image on this site as on Home page.
 
+    - Witches page have a titel to intruduce the page and tell the user that on this page you can read about promenent witches and there trails.
 
+    - 3 sections each about a different witche and a introduction about them and a translation about there trails in a extention with a hover function. 
+        
+        * Each trail section have a link to where the information originated and telling the user that the link is in swedish.
 
+        * Each trail section have a back to top button to take them back to the top of the witches page.
 
-
-
-    - It has a footer identical to the home page's footer.
+    - The page is responsive on all common screen sizes.
     
-​
-    ![Witcher page]()
+    - It has a footer identical to the home page's footer.
+
+    ![Witcher page](documentation/witches-page-desktop.png)
 
 
 ---
@@ -133,8 +141,11 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
     - The page is responsive on all common screen sizes.
 
     - The submit button leads to the response page.
+
+    - It has a footer identical to the home page's footer.
 ​
-    ![Contact page]()
+
+    ![Contact page](documentation/contact-page-desktop.png)
 
 
 ---
@@ -144,7 +155,8 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
     - It contains the thank you message.
     - It will automatically direct the user to the main page in 10 seconds.
 
-    ![Response page]()
+
+    ![Response page](documentation/response-page-desktop.png)
 
 ---
 ## Technologies Used
