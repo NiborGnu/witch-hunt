@@ -181,17 +181,17 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 ![Color pallet](documentation/color-pallet.png) 
 
-- 
+- Red was used as the main color of this website because of its brightness and eye catching to make the text easy to read and make the user more emotinal. As the color is associated with such opposite emotions as love and hate.
 
-- 
+- Black is used as the background color since it is often correlated with power, elegance, sophistication, and depth.
 
-- 
+- Rosewood  color was used becouse it's association with strength, open-mindedness, and receptivity.
 
-- 
+- White color was used to lighten the website by symbolizes purity and innocence. 
 
 ### Typography
 
-[Main Font](https://fonts.google.com/specimen/Fenix?query=fenix)
+![Main Font](documentation/font.png)
 
 - Fenix Google Font was used as the main font of the website in order to increase readability of the content on the pages.
 
@@ -227,6 +227,97 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 ## Testing
 
+## Validator testing
++ ### HTML
+  #### Home Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+
+    ![Home Page HTML Validator](documentation)
+    
+  #### Gallery Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Gallery Page HTML Validator](documentation)
+
+  #### Contact Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Contact Page HTML Validator](documentation)
+
+  #### Response Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Response Page HTML Validator](documentation)
+    
++ ### CSS
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+    
+    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
+
+    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
+
+  ![CSS Validator errors](documentation)
+  
+    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
+    
+  ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
+
+### Compatibility And Responsiveness
+
+In order to confirm the correct functionality, responsiveness, and appearance:
+
++ [Responsive Website Design Tester](https://responsivedesignchecker.com/) Was used to test responsiveness
+
++ The website was tested on the following browsers: Chrome, Firefox, Edge
+
+    - Chrome
+
+    ![Chrome](documentation/compatibility-chrome.png)
+
+    - FireFox
+
+    ![FireFox](documentation/compatibility-firefox.png)
+
+    - Edge
+
+    ![Edge](documentation/compatibility-edge.png)
+
+---
+
+## Manual testing
+
+| feature | action | expected result | tested | passed | comments |
+| --- | --- | --- | --- | --- | --- |
+| Navbar | | | | | |
+| Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
+| Witches | Click on the "Witches" link | The user is redirected to the witches page | Yes | Yes | - |
+| Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
+| Footer | | | | | |
+| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
+| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
+| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
+| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
+| Home page | | | | | |
+| "Video" button in video section | Click on the "Video" button | The user started the video | Yes | Yes | - |
+| Witches page | | | | | |
+| "Witches" button in stor-marit section | Click on the "records" button | The user see the extention | Yes | Yes | - |
+| "Source" button in record-marit section | Click on the "Source" button | The user opens source in new tab | Yes | Yes | - |
+| "Back to top" button in record-marit section | Click on the "Back to top" button | The user was moved back to header | Yes | Yes | - |
+| "Witches" button in elisabetta section | Click on the "records" button | The user see the extention | Yes | Yes | - |
+| "Source" button in record-elisabetta section | Click on the "Source" button | The user opens source in new tab | Yes | Yes | - |
+| "Back to top" button in record-elisabetta section | Click on the "Back to top" button | The user was moved back to header | Yes | Yes | - |
+| "Witches" button in margreta section | Click on the "records" button | The user see the extention | Yes | Yes | - |
+| "Source" button in record-margreta section | Click on the "Source" button | The user opens source in new tab | Yes | Yes | - |
+| "Back to top" button in record-margreta section | Click on the "Back to top" button | The user was moved back to header | Yes | Yes | - |
+| Contact page | | | | | |
+| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. |
+| Enter message in textarea | Enter message | Message was entered | Yes | Yes | If user doesn't enter text, the error message appears. |
+| "Submit" button | Click on the "Submit" button | The user is redirected to the response page | Yes | Yes | - |
+| Response page | | | | | |
+| Response message | The user will be automatically redirected to the home page after 10 seconds | The user is redirected to the home page | Yes | Yes | - |
 
 
 ---
@@ -241,7 +332,7 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://github.com/NiborGnu/witch-hunt)
+The live link can be found [here](https://niborgnu.github.io/witch-hunt/index.html)
 
 ### Local Deployment
 
