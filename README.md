@@ -233,35 +233,27 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
     - No errors or warnings were found when passing through the official W3C validator.
 
 
-    ![Home Page HTML Validator](documentation)
+    ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
     
-  #### Gallery Page
+  #### Witches Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Gallery Page HTML Validator](documentation)
+    ![Witches Page HTML Validator](documentation/w3_validator_witches_page.png)
 
   #### Contact Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Contact Page HTML Validator](documentation)
+    ![Contact Page HTML Validator](documentation/w3_validator_contact_page.png)
 
   #### Response Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Response Page HTML Validator](documentation)
+    ![Response Page HTML Validator](documentation/w3_validator_response_page.png)
     
 + ### CSS
-  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
-    
-    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
+    - No errors or warnings were found when passing through the official W3C (Jigsaw) validator
 
-    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
-
-  ![CSS Validator errors](documentation)
-  
-    - 43 warning regarding the use of *:root variables*: "Due to their dynamic nature, CSS variables are currently not statically checked".
-    
-  ![CSS Validator errors](documentation/w3_validator_css_warnings.png)
+  ![CSS Validator errors](documentation/w3c_validator_css.png)
 
 ### Compatibility And Responsiveness
 
@@ -301,13 +293,13 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Home page | | | | | |
 | "Video" button in video section | Click on the "Video" button | The user started the video | Yes | Yes | - |
 | Witches page | | | | | |
-| "Witches" button in stor-marit section | Click on the "records" button | The user see the extention | Yes | Yes | - |
+| "Witches" button in stor-marit section | Click on the "records" button | The user see the extention | Yes | Yes | Icon not responsive to know text is showing. Will fix when learned how in js |
 | "Source" button in record-marit section | Click on the "Source" button | The user opens source in new tab | Yes | Yes | - |
 | "Back to top" button in record-marit section | Click on the "Back to top" button | The user was moved back to header | Yes | Yes | - |
-| "Witches" button in elisabetta section | Click on the "records" button | The user see the extention | Yes | Yes | - |
+| "Witches" button in elisabetta section | Click on the "records" button | The user see the extention | Yes | Yes | Icon not responsive to know text is showing. Will fix when learned how in js |
 | "Source" button in record-elisabetta section | Click on the "Source" button | The user opens source in new tab | Yes | Yes | - |
 | "Back to top" button in record-elisabetta section | Click on the "Back to top" button | The user was moved back to header | Yes | Yes | - |
-| "Witches" button in margreta section | Click on the "records" button | The user see the extention | Yes | Yes | - |
+| "Witches" button in margreta section | Click on the "records" button | The user see the extention | Yes | Yes | Icon not responsive to know text is showing. Will fix when learned how in js |
 | "Source" button in record-margreta section | Click on the "Source" button | The user opens source in new tab | Yes | Yes | - |
 | "Back to top" button in record-margreta section | Click on the "Back to top" button | The user was moved back to header | Yes | Yes | - |
 | Contact page | | | | | |
@@ -322,6 +314,41 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ---
 
++ ## LightHouse report
+
+    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    
+  ### Home page
+
+  - 83 Performance do to imbedded youtube video.
+
+  ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
+
+  ### Witches page
+
+  ![Witches Page Lighthouse](documentation/lighthouse_witches_page.png)
+
+  ### Contact page
+
+  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
+
+  ### Response page
+
+  - 86 Accessibilite do to refreshing page automatically.
+
+  ![Response Page Lighthouse](documentation/lighthouse_response_page.png)
+
+---
+
+## Bugs
++ ### Unsolved bugs
+    - None.
++ ### Mistakes
+    - Mistakes were made while committing changes
+        * One commit to long
+        * I used past tense in commit before I learned to not do that
+
+---
 
 ## Deployment
 
@@ -352,7 +379,6 @@ The live link can be found [here](https://niborgnu.github.io/witch-hunt/index.ht
 
 + #### Content
 
-    - 
     - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
 
 + #### Media
@@ -371,18 +397,9 @@ The live link can be found [here](https://niborgnu.github.io/witch-hunt/index.ht
 
 + #### Tools
 
-    - [Photoshop](https://www.adobe.com/products/photoshop.html) was used to edit all README.md images.
+    - [Photoshop](https://www.adobe.com/products/photoshop.html) was used to edit all images.
 
-
----
-
-
-
-
-
-
-
-+ ### 
++ #### Inspiration
 
     * [Code Institute](https://codeinstitute.net/se/) - Fore the training and classes in all the basics of html  and css
     
@@ -392,8 +409,4 @@ The live link can be found [here](https://niborgnu.github.io/witch-hunt/index.ht
 
     * [Pinnso](https://www.youtube.com/watch?v=QnBupvZoTw8) - Fore the video I link on my home page about the Great Noise
 
-    * [Google Fonts](https://fonts.google.com/specimen/Fenix?query=fenix) - Fore the fonts I'm using from them
-
-    * [Fontawesome](https://fontawesome.com/search?q=more&o=r&m=free) - Fore the nice font I have been using that they have
-
-    * [Freepik](https://www.freepik.com/) - Fore the image they have are awesome
+    * [Fontawesome](https://fontawesome.com/search?q=more&o=r&m=free) - Fore the nice Icons I have been using that they have
