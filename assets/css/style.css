@@ -21,11 +21,15 @@ body {
     background-attachment: fixed;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     letter-spacing: 2px;
     color: #f00;
     padding-bottom: 10px;
 }
+
 /* main */
 main {
     padding: 0 5%;
@@ -107,6 +111,7 @@ header nav {
     width: 0;
     height: 0;
 }
+
 .witch-landscape {
     background: url("../images/view-daunting-witch-character.webp") no-repeat center center/cover;
     width: 0;
@@ -344,14 +349,16 @@ footer {
 }
 
 @media screen and (min-width: 500px) {
+
     /* Home page */
     .video iframe {
-    width: 400px;
-    height: 225px;
+        width: 400px;
+        height: 225px;
     }
 }
 
 @media screen and (min-width: 768px) {
+
     /* Menu */
     header nav {
         display: block;
@@ -391,7 +398,7 @@ footer {
         height: 168px;
         width: 270px;
     }
-    
+
     .media-addition>.witch-landscape {
         height: 230px;
         width: 300px;
@@ -405,16 +412,18 @@ footer {
     .trials a>h2:hover {
         color: #fff;
     }
-    
+
     /* Witches page */
     .tra:hover {
         color: #fff;
+        cursor: pointer;
     }
 
     /* Contact page */
     .submit:hover {
         color: #500;
         background-color: #fff;
+        cursor: pointer;
     }
 
     /* Footer */
