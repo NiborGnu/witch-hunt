@@ -14,7 +14,10 @@ The site can be viewed on GitHub pages [here](https://niborgnu.github.io/witch-h
 
 ### First Time Visitor Goals:
 * As a First Time visitor, I want to easily understand the main purpose of the site, so I can learn more about the content.
+* As a First Time visitor, I want to find out about famous witches.
 * As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
+* As a First Time Visitor, I want to be able to go to social platforms directly from the site.
+* As a First Time Visitor, I want to be able to contact the site owner.
 
 ### Returning Visitor Goals
 * As a Returning Visitor, I want to be able to read more in-depth records about trials and first-hand writings.
@@ -257,9 +260,8 @@ The site can be viewed on GitHub pages [here](https://niborgnu.github.io/witch-h
 
 ### Compatibility And Responsiveness
 
-In order to confirm the correct functionality, responsiveness, and appearance:
+In order to confirm the correct functionality and appearance:
 
-+ [Responsive Website Design Tester](https://responsivedesignchecker.com/) Was used to test responsiveness
 
 + The website was tested on the following browsers: Chrome, Firefox, Edge
 
@@ -274,6 +276,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - Edge
 
     ![Edge](documentation/compatibility-edge.png)
+
+
 
 ---
 
@@ -342,14 +346,15 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ## Bugs
 + ### Unsolved bugs
-    - None.
+    - Responsive icon on the witches page. Trial records extension. Will fix it when I have the knowledge witch Javascript.
 + ### Mistakes
     - Mistakes were made while committing changes
         * One commit is too long
         * I used the past tense in the commit before I learned to not do that
-+ ### 
-
-+ ### 
+        * Not specific enough commits.
++ ### Bugs Fixed
+    - Screen size content was wider than the header. Fixed it by adding max-width and padding.
+    - Form submission because of lack of backend. Fixed by adding a response page.
 
 
 ---
@@ -367,7 +372,12 @@ The live link can be found [here](https://niborgnu.github.io/witch-hunt/)
 
 ### Local Deployment
 
-- If you use Gitpod, you can [click here](https://github.com/NiborGnu/witch-hunt.git), which will start the Gitpod workspace for you.
+In order to make a local copy of this project, you can clone it.
+In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/NiborGnu/witch-hunt.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/NiborGnu/witch-hunt.git), which will start the Gitpod workspace for you.
 
 ---
 
