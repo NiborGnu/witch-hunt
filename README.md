@@ -39,10 +39,10 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
         
         * On mobile devices:
 
-            * On Mobile: Navigation bar is filled with the  logo to the right and a caret-down menu  implemented on the right side.
+            * On Mobile: Navigation bar is filled with the logo to the right and a bars menu implemented on the right side.
             ![NavBar Mobile Closed](documentation/nav-bar-mobile.png)
 
-            * When caret-down menu is clicked, there is a   dropdown menu with the links.
+            * When bars menu is clicked, there is a dropdown menu with the links.
             ![NavBar Mobile Open](documentation/nav-bar-mobile-dropdown.png)
 
         * On tablets: Navigation bar looks the same as on desktop
@@ -121,6 +121,8 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
         * Each trail section have a link to where the information originated and telling the user that the link is in swedish.
 
         * Each trail section have a back to top button to take them back to the top of the witches page.
+
+        * The trail record icon is not responsive. Will fix with javascript when i know how to.
 
     - The page is responsive on all common screen sizes.
     
@@ -286,10 +288,10 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Witches | Click on the "Witches" link | The user is redirected to the witches page | Yes | Yes | - |
 | Contact | Click on the "Contact" link | The user is redirected to the contact page | Yes | Yes | - |
 | Footer | | | | | |
-| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
-| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
-| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
-| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page | Yes | Yes | - |
+| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page, In new tab | Yes | Yes | - |
+| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page, In new tab | Yes | Yes | - |
+| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page, In new tab | Yes | Yes | - |
+| YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page, In new tab | Yes | Yes | - |
 | Home page | | | | | |
 | "Video" button in video section | Click on the "Video" button | The user started the video | Yes | Yes | - |
 | Witches page | | | | | |
