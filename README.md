@@ -1,8 +1,8 @@
 # Witch Hunt
 
-The witch hunt website is made to informe people about the witch hunt in sweden called "the great noise". With information from that time and records of 3 trails at that time.
+The witch hunt website is made to inform people about the witch hunt in Sweden called "the Great Noise". With information from that time and records of 3 trials at that time.
 
-The site can be viewed on github pages [here](https://niborgnu.github.io/witch-hunt/)
+The site can be viewed on GitHub pages [here](https://niborgnu.github.io/witch-hunt/)
 
 ![Responsive Mockup](documentation/all-devices-black.png)
 
@@ -13,11 +13,11 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 ## User Stories
 
 ### First Time Visitor Goals:
-* As a First Time Vistior, I want to easily understand the mainn purpose of the site, so I can learn more about the content.
-* As a First Time Visitor, I want to be able to easily navigate through the website, so i can find the content.
+* As a First Time visitor, I want to easily understand the main purpose of the site, so I can learn more about the content.
+* As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
 
 ### Returning Visitor Goals
-* As a Returning Visitor, I want to be able to read more in dept records about trails and first hand writings.
+* As a Returning Visitor, I want to be able to read more in-depth records about trials and first-hand writings.
 
 ## Features
 
@@ -28,36 +28,36 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
     - Contains logo on the left side.
     - Contains navigation links on the right side:
         * HOME - leads to the Home page
-        * WITCHES - leads to the page where you can read about witches and there trails.
-        * CONTACT - leads to the contat page where you can contact the site owner.
+        * WITCHES - leads to the page where you can read about witches and their trials.
+        * CONTACT - leads to the contact page where you can contact the site owner.
     - The links have animated hover effects.
 
-    - The  navigation is clear to understand for the user.
+    - The navigation is clear to understand for the user.
     ![NavBar desktop](documentation/nav-bar-desktop.png)
 
     - The navigation bar is responsive:
         
         * On mobile devices:
 
-            * On Mobile: Navigation bar is filled with the logo to the right and a bars menu implemented on the right side.
+            * On Mobile: The navigation bar is filled with the logo to the right and a bars menu is implemented on the right side.
             ![NavBar Mobile Closed](documentation/nav-bar-mobile.png)
 
-            * When bars menu is clicked, there is a dropdown menu with the links.
+            * When the bars menu is clicked, there is a dropdown menu with the links.
             ![NavBar Mobile Open](documentation/nav-bar-mobile-dropdown.png)
 
-        * On tablets: Navigation bar looks the same as on desktop
+        * On tablets: The navigation bar looks the same as on the desktop
         ![NavBar desktop](documentation/nav-bar-desktop.png)
 
 
 ---
 + ### Home Page:
 
-    - Background image is put in the html body of the page
+    - Background image is put in the HTML body of the page
 
     - Represent:
 
-        * The consept of the page
-        * Invite intrest to read more
+        * The concept of the page
+        * Invite interest to read more
 
     - The page is responsive on all common screen sizes.
 
@@ -67,12 +67,12 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 + #### Hero Section
 
-    - Hero section consist of 3 text bracets 
-    and on screen bigger than 768px 2 image
+    - The hero section consists of 3 text brackets 
+    and on-screen bigger than 768px 2 image
 
-        * Page titel introducing the great noise
-        * Information about how many victims and a image 
-        * Information about the resoning and questions of why and a image
+        * Page title introducing the great noise
+        * Information about how many victims and an image 
+        * Information about the reason and questions of why and an image
 
     ![Hero Section](documentation/hero-section-desktop.png)
 
@@ -80,9 +80,9 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 + #### Video Section
 
-    - Titel to let user know there are a video about the Great noise to see here
+    - Titel to let the user know there is a video about the Great noise to see here
 
-    - Showes a video about the great noise
+    - Shows a video about the great noise
 
     
     ![Video Section](documentation/video-section-desktop.png)
@@ -91,7 +91,7 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 + #### Witches section
 
-    - Titel telling user that here they can be directed to read more about 3 specific witches and there trails
+    - Titel tells users that here they can be directed to read more about 3 specific witches and their trails
 
     - Indication to read more about Stor-Märit from Lillhärdal 
 
@@ -112,17 +112,17 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 ---
 + ### Witches Page
 
-    - Same background image on this site as on Home page.
+    - Same background image on this site as on the Home page.
 
-    - Witches page have a titel to intruduce the page and tell the user that on this page you can read about promenent witches and there trails.
+    - Witches page has a title to introduce the page and tell the user that on this page you can read about prominent witches and their trials.
 
-    - 3 sections each about a different witche and a introduction about them and a translation about there trails in a extention with a hover function. 
+    - 3 sections each about different witches an introduction about them and a translation about their trials in an extension with a hover function. 
         
-        * Each trail section have a link to where the information originated and telling the user that the link is in swedish.
+        * Each trail section has a link to where the information originated and tells the user that the link is in Swedish.
 
-        * Each trail section have a back to top button to take them back to the top of the witches page.
+        * Each trial section has a back-to-top button to take them back to the top of the witches page.
 
-        * The trail record icon is not responsive. Will fix with javascript when i know how to.
+        * The trail record icon is not responsive. Will fix it with javascript when I know how to.
 
     - The page is responsive on all common screen sizes.
     
@@ -134,10 +134,10 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 ---
 + ### Contact page
 
-    - Contact page has a contact form:
+    - The contact page has a contact form:
 
-        - All text input fields are accuiered.
-        - All inputs are set to be required to fill out.
+        - All text input fields are acquired.
+        - All inputs are set to be required to be filled out.
         - The submit button is animated on hover.
 
     - The page is responsive on all common screen sizes.
@@ -164,16 +164,14 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 ## Technologies Used
 
 - [Fontawesome](https://fontawesome.com/) was used for all icons.
-- [Favicon](https://icons8.com/icons/set/witch) was used to ad a icon in the tab.
+- [Favicon](https://icons8.com/icons/set/witch) was used to add an icon in the tab.
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
-- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
-- [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/grid) - was used to make "gallery" and "contact" pages responsive.
-- [CSS roots](https://developer.mozilla.org/en-US/docs/Web/CSS/:root) was used to declaring global CSS variables and apply them throughout the project. 
+- [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items symmetrically on the pages.
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [Photoshop](https://www.adobe.com/products/photoshop.html) was used resize images for the README file.
+- [Photoshop](https://www.adobe.com/products/photoshop.html) was used to resize images for the README file.
 
 
 ---
@@ -183,19 +181,19 @@ The site can be viewed on github pages [here](https://niborgnu.github.io/witch-h
 
 ![Color pallet](documentation/color-pallet.png) 
 
-- Red was used as the main color of this website because of its brightness and eye catching to make the text easy to read and make the user more emotinal. As the color is associated with such opposite emotions as love and hate.
+- Red was used as the main color of this website because of its brightness and eye-catching to make the text easy to read and make the user more emotional. The color is associated with such opposite emotions as love and hate.
 
 - Black is used as the background color since it is often correlated with power, elegance, sophistication, and depth.
 
-- Rosewood  color was used becouse it's association with strength, open-mindedness, and receptivity.
+- Rosewood color was used because of its association with strength, open-mindedness, and receptivity.
 
-- White color was used to lighten the website by symbolizes purity and innocence. 
+- White color was used to lighten the website by symbolizing purity and innocence. 
 
 ### Typography
 
 ![Main Font](documentation/font.png)
 
-- Fenix Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+- Fenix Google Font was used as the main font of the website to increase the readability of the content on the pages.
 
 - And in case of problems with Fenix sans-serif was inputted as a backup.
 
@@ -293,7 +291,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page, In new tab | Yes | Yes | - |
 | YouTube icon in the footer | Click on the YouTube icon | The user is redirected to the YouTube page, In new tab | Yes | Yes | - |
 | Home page | | | | | |
-| "Video" button in video section | Click on the "Video" button | The user started the video | Yes | Yes | - |
+| "Video" button in video section | Click on the "Video" button | The user started the video | Yes | Yes | This video is not automaticcly played for better user experience |
 | Witches page | | | | | |
 | "Witches" button in stor-marit section | Click on the "records" button | The user see the extention | Yes | Yes | Icon not responsive to know text is showing. Will fix when learned how in js |
 | "Source" button in record-marit section | Click on the "Source" button | The user opens source in new tab | Yes | Yes | - |
@@ -318,11 +316,11 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + ## LightHouse report
 
-    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    - Using lighthouse in dev tools I confirmed that the website is performing well, accessible, and the colors and fonts chosen are readable.
     
   ### Home page
 
-  - 83 Performance do to imbedded youtube video.
+  - 83 Performance due to embedded YouTube video.
 
   ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
 
@@ -336,7 +334,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   ### Response page
 
-  - 86 Accessibilite do to refreshing page automatically.
+  - 86 Accessibility to refreshing the page automatically.
 
   ![Response Page Lighthouse](documentation/lighthouse_response_page.png)
 
@@ -347,8 +345,12 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - None.
 + ### Mistakes
     - Mistakes were made while committing changes
-        * One commit to long
-        * I used past tense in commit before I learned to not do that
+        * One commit is too long
+        * I used the past tense in the commit before I learned to not do that
++ ### 
+
++ ### 
+
 
 ---
 
@@ -361,20 +363,20 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found [here](https://niborgnu.github.io/witch-hunt/index.html)
+The live link can be found [here](https://niborgnu.github.io/witch-hunt/)
 
 ### Local Deployment
 
-- If you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/NiborGnu/witch-hunt), which will start the Gitpod workspace for you.
+- If you use Gitpod, you can [click here](https://github.com/NiborGnu/witch-hunt.git), which will start the Gitpod workspace for you.
 
 ---
 
 ## Future improvements
 
-- add javascript indicator to witches record extendsion
+- add Javascript indicator to witches record extension
 - add custom 404 page;
-- add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
-- add fully functional contact form.
+- add accessibility report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
+- add a fully functional contact form.
 
 ---
 ## Credits
@@ -395,7 +397,7 @@ The live link can be found [here](https://niborgnu.github.io/witch-hunt/index.ht
         - [1st image](https://www.freepik.com/free-ai-image/medium-shot-scary-character-posing_59233389.htm#query=witches%20burning&position=26&from_view=search&track=ais)
         - [2nd image](https://www.freepik.com/free-ai-image/view-daunting-witch-character_58508538.htm#query=witch%20burning&position=46&from_view=keyword&track=ais);
 
-    - [Video](https://www.youtube.com/watch?v=QnBupvZoTw8) Taken from you tube user Pinnso
+    - [Video](https://www.youtube.com/watch?v=QnBupvZoTw8) Taken from YouTubee user Pinnso
 
 + #### Tools
 
@@ -403,12 +405,12 @@ The live link can be found [here](https://niborgnu.github.io/witch-hunt/index.ht
 
 + #### Inspiration
 
-    * [Code Institute](https://codeinstitute.net/se/) - Fore the training and classes in all the basics of html  and css
+    * [Code Institute](https://codeinstitute.net/se/) - For the training and classes in all the basics of HTML and CSS
     
     * [Kevin Powell](https://www.youtube.com/@KevinPowell) - Fore awesome ccs tutorials
 
     * [National Archive Sweden](https://riksarkivet.se/motkallorna/rattegangsprotokollen) - For the Trail records I translated from there
 
-    * [Pinnso](https://www.youtube.com/watch?v=QnBupvZoTw8) - Fore the video I link on my home page about the Great Noise
+    * [Pinnso](https://www.youtube.com/watch?v=QnBupvZoTw8) - For the video. I link on my home page about the Great Noise
 
-    * [Fontawesome](https://fontawesome.com/search?q=more&o=r&m=free) - Fore the nice Icons I have been using that they have
+    * [Fontawesome](https://fontawesome.com/search?q=more&o=r&m=free) - For the nice Icons I have been using that they have
